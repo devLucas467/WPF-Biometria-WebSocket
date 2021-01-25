@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EFAF358-C279-4BEC-AC05-5CC4D4D4FF5A}</ProjectGuid>
+    <ProjectGuid>{6D821041-E3BF-4D63-A1E1-15FD10A13CC3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ServidorBiometriaWebSocket</RootNamespace>
-    <AssemblyName>ServidorBiometriaWebSocket</AssemblyName>
+    <RootNamespace>ServidorWebSocketBiometria</RootNamespace>
+    <AssemblyName>ServidorWebSocketBiometria</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

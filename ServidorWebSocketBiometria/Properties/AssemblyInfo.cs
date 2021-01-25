@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ServidorBiometriaWebSocket")]
+[assembly: AssemblyTitle("ServidorWebSocketBiometria")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ServidorBiometriaWebSocket")]
+[assembly: AssemblyProduct("ServidorWebSocketBiometria")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7efaf358-c279-4bec-ac05-5cc4d4d4ff5a")]
+[assembly: Guid("6d821041-e3bf-4d63-a1e1-15fd10a13cc3")]
 
 // Version information for an assembly consists of the following four values:
 //
