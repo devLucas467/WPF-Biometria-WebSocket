@@ -1,0 +1,62 @@
+﻿<Window x:Class="BiometriaEWebSocket.Views.ProfileUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BiometriaEWebSocket.Views"
+        mc:Ignorable="d"
+        Title="ProfileUser" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="Estilo_Placeholder" TargetType="{x:Type TextBox}" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <TextBox Text="{Binding Path=Text,
+                                                RelativeSource={RelativeSource TemplatedParent}, 
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"
+                                 x:Name="Texto" 
+                                 Background="Transparent" 
+                                 Panel.ZIndex="2" />
+                            <TextBox Text="{TemplateBinding Tag}" Background="{TemplateBinding Background}" Panel.ZIndex="1">
+                                <TextBox.Style>
+                                    <Style TargetType="{x:Type TextBox}">
+                                        <Setter Property="Foreground" Value="Transparent"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Path=Text, Source={x:Reference Texto}}" Value="">
+                                                <Setter Property="Foreground" Value="LightGray"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBox.Style>
+                            </TextBox>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Label Content="Basic" HorizontalAlignment="Left" Margin="63,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.868,0.962" Width="63" FontStyle="Italic" FontWeight="SemiBold" FontSize="20"/>
+        <Label Content="First name" HorizontalAlignment="Left" Margin="63,128,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="63,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="63,212,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="63,252,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="63,292,0,0" VerticalAlignment="Top"/>
+        <Label Content="Role" HorizontalAlignment="Left" Margin="66,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.868,0.962" Width="63" FontStyle="Italic" FontWeight="SemiBold" FontSize="15"/>
+        <CheckBox Content="Is allowed credentials" HorizontalAlignment="Left" Margin="66,380,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,132,0,0" TextWrapping="Wrap" 
+                 Style="{StaticResource Estilo_Placeholder}" Tag="First Name" VerticalAlignment="Top" Width="120" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,172,0,0" TextWrapping="Wrap"  
+                 Style="{StaticResource Estilo_Placeholder}" Tag="Last name" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,216,0,0" TextWrapping="Wrap" 
+                 Style="{StaticResource Estilo_Placeholder}" Tag="Description" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,256,0,0" TextWrapping="Wrap" 
+                 Style="{StaticResource Estilo_Placeholder}" Tag="Phone Number" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,296,0,0" TextWrapping="Wrap" 
+                 Style="{StaticResource Estilo_Placeholder}" Tag="Email" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

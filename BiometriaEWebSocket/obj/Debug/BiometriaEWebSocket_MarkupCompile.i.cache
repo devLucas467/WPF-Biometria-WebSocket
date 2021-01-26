@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\BiometriaEWebSocket\App.xaml
-11151548125
+3103157446
 
-61434861427
-13-1505183044
-MainWindow.xaml;
+9-508738732
+21-185356077
+Views\ProfileUser.xaml;Views\RegisterUser.xaml;Views\IndexUser.xaml;
 
 True
 
