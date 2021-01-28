@@ -46,17 +46,20 @@
         <Label Content="Phone Number" HorizontalAlignment="Left" Margin="63,252,0,0" VerticalAlignment="Top"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="63,292,0,0" VerticalAlignment="Top"/>
         <Label Content="Role" HorizontalAlignment="Left" Margin="66,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.868,0.962" Width="63" FontStyle="Italic" FontWeight="SemiBold" FontSize="15"/>
-        <CheckBox Content="Is allowed credentials" HorizontalAlignment="Left" Margin="66,380,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,132,0,0" TextWrapping="Wrap" 
+        <CheckBox x:Name="HasCredentialBox" Content="Is allowed credentials" HorizontalAlignment="Left" Margin="66,380,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="FirstNameBox" HorizontalAlignment="Left" Height="23" Margin="178,132,0,0" TextWrapping="Wrap" 
                  Style="{StaticResource Estilo_Placeholder}" Tag="First Name" VerticalAlignment="Top" Width="120" />
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,172,0,0" TextWrapping="Wrap"  
+        <TextBox x:Name="LastNameBox" HorizontalAlignment="Left" Height="23" Margin="178,172,0,0" TextWrapping="Wrap"  
                  Style="{StaticResource Estilo_Placeholder}" Tag="Last name" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,216,0,0" TextWrapping="Wrap" 
+        <TextBox x:Name="DescriptionBox" HorizontalAlignment="Left" Height="23" Margin="178,216,0,0" TextWrapping="Wrap" 
                  Style="{StaticResource Estilo_Placeholder}" Tag="Description" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,256,0,0" TextWrapping="Wrap" 
+        <TextBox x:Name="PhoneBox" HorizontalAlignment="Left" Height="23" Margin="178,256,0,0" TextWrapping="Wrap" 
                  Style="{StaticResource Estilo_Placeholder}" Tag="Phone Number" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,296,0,0" TextWrapping="Wrap" 
+        <TextBox x:Name="EmailBox" HorizontalAlignment="Left" Height="23" Margin="178,296,0,0" TextWrapping="Wrap" 
                  Style="{StaticResource Estilo_Placeholder}" Tag="Email" VerticalAlignment="Top" Width="120"/>
-
+        
+        
+        
+        
     </Grid>
 </Window>

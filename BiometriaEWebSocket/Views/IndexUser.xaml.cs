@@ -35,8 +35,18 @@ namespace BiometriaEWebSocket.Views
             var item = sender as ListViewItem;
             if (item != null && item.IsSelected)
             {
+                User teste = new User()
+                {
+                    FirstName = "Joserobr",
+                    LastName = "Lokiinas",
+                    Description = "Gosto de ovos",
+                    Phone = "212121",
+                    Email = "Juubas@gmail.com",
+                    HasCredential = false   
+                 
+                };
                 ProfileUser profile = new ProfileUser();
-                Debug.WriteLine(item.IsSelected);
+                profile.SetUserData(teste);
                 profile.Show();
             }
         }

@@ -1,4 +1,5 @@
 ﻿using BiometriaEWebSocket.Classes;
+using BiometriaEWebSocket.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -39,6 +40,7 @@ namespace BiometriaEWebSocket
             RegUser.HasCredential = CheckCredential.IsChecked == true ? true : false;
             //chamada de API
             //Fazer um Post com os dados do usuario
+            UserController.CreateUser(RegUser);
             App.Database.Add(RegUser);
             Close();
         }

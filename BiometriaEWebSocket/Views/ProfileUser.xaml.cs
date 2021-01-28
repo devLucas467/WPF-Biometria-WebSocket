@@ -26,6 +26,23 @@ namespace BiometriaEWebSocket.Views
             InitializeComponent();
         }
 
+        public void SetUserData(User user)
+        {
+            this.user = user;
+            FirstNameBox.Text = user.FirstName;
+            LastNameBox.Text = user.LastName;
+            DescriptionBox.Text = user.Description;
+            PhoneBox.Text = user.Phone;
+            EmailBox.Text = user.Email;
+            if (user.HasCredential)
+            {
+                HasCredentialBox.Content = true;
+            }
+            else
+            {
+                HasCredentialBox.Content = false;
+            }
+        }
 
     }
 }
