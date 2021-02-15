@@ -1,0 +1,37 @@
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\bin\Debug\Client.exe.config
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\bin\Debug\Client.exe
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\bin\Debug\Client.pdb
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\obj\Debug\Client.exe
+C:\Bhushan\C#Corner\WebsocketHttpListener\Client\obj\Debug\Client.pdb
+C:\Users\bbhure\Visual Studio 2012\Projects\Test\WebsocketHttpListener\Client\bin\Debug\Client.exe.config
+C:\Users\bbhure\Visual Studio 2012\Projects\Test\WebsocketHttpListener\Client\bin\Debug\Client.exe
+C:\Users\bbhure\Visual Studio 2012\Projects\Test\WebsocketHttpListener\Client\bin\Debug\Client.pdb
+C:\Users\bbhure\Visual Studio 2012\Projects\Test\WebsocketHttpListener\Client\obj\Debug\Client.exe
+C:\Users\bbhure\Visual Studio 2012\Projects\Test\WebsocketHttpListener\Client\obj\Debug\Client.pdb
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.exe.config
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.exe
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.pdb
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.exe
+D:\Downloads\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.pdb
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.exe.config
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.exe
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\bin\Debug\Client.pdb
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.exe
+C:\Users\lucassouza\Desktop\WebsocketHttpListener\WebsocketHttpListener\Client\obj\Debug\Client.pdb
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\Client.pdb
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\obj\Debug\Client.pdb
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\Client.dll.config
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\Client.dll
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\obj\Debug\Client.dll
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\RestSharp.dll
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\bin\Debug\RestSharp.xml
+C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\HSS_Project\Client\obj\Debug\Client.csproj.CopyComplete

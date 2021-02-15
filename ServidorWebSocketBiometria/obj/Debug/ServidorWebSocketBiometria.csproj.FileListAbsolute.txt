@@ -1,7 +1,0 @@
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\bin\Debug\ServidorWebSocketBiometria.exe.config
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\bin\Debug\ServidorWebSocketBiometria.exe
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\bin\Debug\ServidorWebSocketBiometria.pdb
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\obj\Debug\ServidorWebSocketBiometria.csprojAssemblyReference.cache
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\obj\Debug\ServidorWebSocketBiometria.csproj.CoreCompileInputs.cache
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\obj\Debug\ServidorWebSocketBiometria.exe
-C:\Users\lucassouza\Documents\GitHub\WPF-Biometria-WebSocket\ServidorWebSocketBiometria\obj\Debug\ServidorWebSocketBiometria.pdb
